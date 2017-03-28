@@ -1,6 +1,6 @@
-
+  var rangeLimit = 100
   // Count through numbers one through 20 and figure out if each one is divisible by 3, 5, or both.
-  for ( i=1; i<=20; i++ ) {
+  for ( i=1; i<=rangeLimit; i++ ) {
   // For each number, do the following check:
 
   // See if it is divisible by 3
