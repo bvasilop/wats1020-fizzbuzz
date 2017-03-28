@@ -4,11 +4,11 @@
   for (var i = 1; i <= 20; i++) {
       // Use if conditional to figure out if the numbers are divisible by 3, 5, or both.
       // To simplify and condense code see if it is divisible by 15 --any number divisible by 3 and 5 is also divisible by 15--
-      if(i % 15 === 0) {
+    if(i % 15 === 0) {
       // If divisible by 15: Print FizzBuzz 
       console.log('FizzBuzz');
       // Use else if conditional to determine if divisible by 3
-      } else if (i % 3 ===0){
+  } else if (i % 3 ===0){
       // If only divisible by 3: Print Fizz
       console.log('Fizz');
       // Use else if conditional to determine if divisible by 5
