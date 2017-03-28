@@ -12,7 +12,7 @@
       // If only divisible by 3: Print Fizz
       console.log('Fizz');
       // Use else if conditional to determine if divisible by 5
-  } else if ( i % 5 === 0) {
+  } else if (i % 5 === 0) {
       // If divisible by 5, Print Buzz
       console.log('Buzz');
       // Use else conditional to see if the number is not divisible by 3 or 5
