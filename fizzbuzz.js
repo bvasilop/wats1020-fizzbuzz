@@ -1,19 +1,19 @@
-  var rangeLimit = 100
+  
   // Count through numbers one through 20 and figure out if each one is divisible by 3, 5, or both.
-  for ( i=1; i<=rangeLimit; i++ ) {
+  for (var i = 1; i <= 20; i++) {
   // For each number, do the following check:
 
-  // See if it is divisible by 3
-  if( i % 3 === 0) {
-    // If so: See if it is Also divisible by 5
-    if( i % 5 === 0) {
-      // If divisible by 3 and 5: Print FizzBuzz
+  // See if it is divisible by 15
+  
+    if(i % 15 === 0) {
+      // If divisible by 15: Print FizzBuzz (any number divisible by 3 and 5 is also divisible by 15)
+
       console.log('FizzBuzz');
-    } else {
+    } else if (i % 3 ===0){
       // If only divisible by 3: Print Fizz
       console.log('Fizz');
-    }
-  }  else if ( i % 5 === 0) {
+    
+  } else if ( i % 5 === 0) {
       // See if it is divisible by 5
       // If so: Print Buzz
       console.log('Buzz');
@@ -21,6 +21,7 @@
     // See if it is not divisible by 3 or 5
     // If so: Print number
     console.log(i);
+  
   }
 }
 
